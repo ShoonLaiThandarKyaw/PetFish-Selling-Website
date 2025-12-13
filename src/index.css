@@ -7,9 +7,10 @@
 }
 
 /* Font sizes
-Main Title:	text-4xl font-bold
+Main Title:	text-4xl font-bold text-[#003366]
 Subtitle:	text-base text-gray-600
-Section Headings:	text-xl font-semibold
+Section Headings:	text-xl font-bold
 Subsection Headings:	text-lg font-semibold
 Bullet List Text:	text-sm
+paragraph: text-gray-600 text-md
 Small Notes:	text-xs */
