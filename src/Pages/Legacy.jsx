@@ -1,4 +1,4 @@
-import diver from "../assets/Legacy/diver.jpg";
+import diver from "../assets/Legacy/diver.webp";
 import clock from "../assets/Legacy/clock.svg";
 import heart from "../assets/Legacy/heart.svg";
 import people from "../assets/Legacy/people.svg";
@@ -132,3 +132,4 @@ function OurLegacy() {
 }
 
 export default OurLegacy;
+
