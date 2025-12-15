@@ -12,7 +12,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<ShopInfo />} />
+        <Route path="/shop-info" element={<ShopInfo />} />
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/legacy" element={<OurLegacy />} />
         <Route path="/care-guides" element={<CareGuide />} />{" "}

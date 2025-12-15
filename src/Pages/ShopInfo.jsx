@@ -1,16 +1,17 @@
 import Phone from "../assets/Shop Info/phone.svg";
 import Mail from "../assets/Shop Info/mail.svg";
 import Facebook from "../assets/Shop Info/fb.svg";
-import Instagram from "../assets/Shop Info/IG.svg";
+import Telegram from "../assets/Shop Info/telegram.svg";
+import Tiktok from "../assets/Shop Info/tiktok.svg";
 import Message from "../assets/Shop Info/chat.svg";
 import Policy from "../assets/Shop Info/policy.svg";
-import Gallery from "../assets/Shop Info/gallery.svg";
 
 import FishIcon from "../assets/Shop Info/fish.svg";
 import WaterDropIcon from "../assets/Shop Info/setup.svg";
 import TickIcon from "../assets/Shop Info/tick.svg";
 import BoxIcon from "../assets/Shop Info/box.svg";
 import TruckIcon from "../assets/Shop Info/truck.svg";
+import { Link } from "react-router";
 
 function ShopInfo() {
   // Fish Cards Array
@@ -35,7 +36,7 @@ function ShopInfo() {
   // Contact Info Array
   const contacts = [
     { label: "Phone",
-      value: "+95 9 123 456 789", 
+      value: "+95 9 257897396", 
       icon: Phone,
       alt: "phone icon" 
     },
@@ -45,18 +46,18 @@ function ShopInfo() {
       alt: "mail icon"
     },
     { label: "Facebook", 
-      value: "@DveSeller",
+      value: "Due Seller",
       icon: Facebook,
       alt: "Facebook icon" 
     },
-    { label: "Instagram", 
-      value: "@dveseller", 
-      icon: Instagram,
+    { label: "TikTok", 
+      value: "@due.seller", 
+      icon: Tiktok,
       alt: "Instagram icon"
     },
     { label: "Telegram", 
-      value: "+95 9 123 456 789", 
-      icon: Message,
+      value: "@Awn6932", 
+      icon: Telegram,
       alt: "Message icon"
     },
     { label: "Messenger", 
@@ -102,7 +103,7 @@ function ShopInfo() {
 
   return (
     <>
-      <div className="bg-[#DFF8FF]">
+      <div className="bg-[#DFF8FF] pb-15">
         {/* Hero Section */}
         <section className="bg-[#003366] text-white p-4 py-20 mb-15 text-center">
           <h1 className="text-4xl font-bold tracking-wide">Shop Information</h1>
@@ -196,12 +197,12 @@ function ShopInfo() {
 
               <p className="text-gray-700 font-bold leading-relaxed">Shop Address</p>
               <p className="text-gray-700 leading-relaxed">
-                44 St, 55 x 56 St, Nan Shae<br />
+                14 St, 55 x 56 St, Nan Shae<br />
                 Mandalay, Myanmar
               </p>
 
               <div className="mt-4">
-                <a href="#" className="px-3 py-1 bg-blue-100 rounded-full text-sm text-[#003355] border border-[#bfe8ff] inline-flex items-center gap-1">
+                <Link to="https://maps.app.goo.gl/Bhkd63pMnWkQXmAY6?g_st=ic" className="px-3 py-1 bg-blue-100 rounded-full text-sm text-[#003355] border border-[#bfe8ff] inline-flex items-center gap-1">
                   Map
                   <svg xmlns="http://www.w3.org/2000/svg"
                       fill="none" viewBox="0 0 24 24" strokeWidth="2"
@@ -209,7 +210,7 @@ function ShopInfo() {
                     <path d="M12 2a7 7 0 017 7c0 5-7 13-7 13S5 14 5 9a7 7 0 017-7z" />
                     <circle cx="12" cy="9" r="2.5" />
                   </svg>
-                </a>
+                </Link>
               </div>
 
               <div className="mt-4 flex flex-wrap gap-2">
@@ -286,34 +287,24 @@ function ShopInfo() {
           </div>
         </section>
 
-        {/* Shop Gallery Section */}
-        <section className="px-5 h-80">
-          <div className="max-w-5xl mx-auto h-70 bg-white p-10 rounded-2xl shadow-sm">
-            <h2 className="text-xl font-bold text-[#003366] mb-7 flex items-center gap-2">
-              <span><img src={Gallery} alt="" /></span>Shop Gallery
-            </h2>
-          </div>
-        </section>
-
         {/* Owner Section */}
         <section className="px-5">
           <div className="max-w-5xl mx-auto bg-white p-10 rounded-2xl shadow-sm">
-            <h2 className="text-xl font-bold text-[#003366] mb-7 flex items-center gap-2">
+            <h2 className="text-xl font-bold text-[#003366] mb-5 flex items-center gap-2">
               About Owner
             </h2>
 
             <p className="text-gray-600 text-md mb-8 leading-relaxed">
-              Welcome to{" "}
-              <span className="font-semibold text-[#003366]">Due Seller</span>,
-              your trusted source for premium aquarium fish. We provide healthy,
-              vibrant fish for hobbyists and collectors.
+              <h3 className="font-semibold text-[#003366] mb-5">Aung Win Naing (Founder)</h3>
+              <q> ကျွန်တော်ကတော့ အောင်ဝင်းနိုင် ဖြစ်ပြီး Due Seller ရဲ့ Founder ဖြစ်ပါတယ်။ ဒီဆိုင်လေးကို 2023 ခုနှစ်မှစတင်ဖန်တီးခဲ့ပြီး၊ အရည်အသွေးမြင့်ငါးများကို စျေးသက်သာစွာ ဝယ်ယူနိုင်အောင် ရောင်းချနေပါတယ်။ ဒီဆိုင်လေးကိုဖွင့်ရတဲ့ရည်ရွယ်ချက်ကတော့ မြန်မာပြည်မှာတွေ့ရတဲ့ ရောင်းလိုက်ရင်ပြီးရော၊ ငါးတွေသေသေ မသေသေ ဂရုမစိုက်တဲ့ ရောင်းချသူတွေရယ်/ ဝယ်သူက ရောင်းတဲ့သူကိုကြောက်နေရတာမျိုးတွေကို ဖြေရှင်းပေးရန်ဖြစ်ပါတယ်။ အများကြီးရောင်းရပြီးရော/မြတ်ရင်ပြီးရော ရောင်းတဲ့သူတွေကြောင့် တကယ်ဝါသနာပါပါနဲ့မွေးမယ့်သူတွေက မမွေးတတ်မွေးတတ်နဲ့ ငါးလေးတွေကိုမွေးလိုက် သေလိုက်နဲ့ စိတ်ညစ်ပြီးလက်လျှော့သွားတဲ့သူတွေများကြပါတယ်။ ဒုတိယတစ်ချက်က ငါးစျေးမေးရင် ရောင်းတဲ့သူကိုကြောက်နေရတာမျိုးတို့၊ရောင်းတဲ့သူက စိတ်မရှည်တာမျိုးတို့ မဖြစ်အောင် သေချာ customer care လုပ်ပြီးရောင်းချပေးသွားပါ့မယ်။ ထို့ကြောင့် ကျွန်တော်ဆီ လာဝယ်သူများအနေဖြင့်အချိန်ပြည့်လာရောက်ပြီး မေးမြန်းနိုင်ခြင်း၊ မသေအောင်ဘယ်လိုဂရုစိုက်ရမယ်ဆိုတာ လမ်းညွှန်ခြင်းတို့ကို အဓိကပေးဆောင်သွားမှာ ဖြစ်ပါတယ်။ စျေးနှုန်းမေးမြန်းရာမှာ စိုးရိမ်စရာမလိုအောင် ဂရုတစိုက်ရောင်းချပေးသွားပါမယ်။ Due Seller ရဲ့ ရည်ရွယ်ချက်မှာ ငါးချစ်သူများအတွက် ကျန်းမာပြီး အရည်အသွေးမြင့် ငါးများကို လွယ်ကူစွာ ဝယ်ယူနိုင်စေရန် ဖြစ်ပြီး၊ ငါးမွေးနည်းအကြံပေးမှုများကို အချိန်မရွေးလာရောက်မေးမြန်းနိုင်ပါသည်။ </q>
             </p>
             
             
+            <Link to="https://t.me/Awn6932">
               <div className="w-full bg-gradient-to-r from-[#003366] to-[#00D4FF] text-white text-center font-bold text-md py-4 rounded-lg transition-all delay-150 duration-300 ease-in-out hover:from-[#002244] hover:to-[#00B8E6] cursor-pointer">
                 Contact Me Via Telegram
               </div>
-            
+            </Link>
           </div>
         </section>
       </div>
