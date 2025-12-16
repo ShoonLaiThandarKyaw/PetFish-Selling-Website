@@ -21,8 +21,8 @@ function App() {
         <Route path="/legacy" element={<OurLegacy />} />
         <Route path="/care-guides" element={<CareGuide />} />{" "}
         <Route path="/" element={<HomePage />} />
-      <Route path="/collection" element={<CollectionPage />} />
-      <Route path="/fish/:id" element={<FishDetailsPage />} />
+      {/* <Route path="/collection" element={<CollectionPage />} />
+      <Route path="/fish/:id" element={<FishDetailsPage />} /> */}
 
         {/* ✅ matches default export */}
       </Routes>
