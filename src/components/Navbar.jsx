@@ -38,7 +38,7 @@ export function Navbar() {
 
   return (
     <nav className="bg-[#003366] text-white sticky top-0 z-50 border-b border-[#00CED1]/20">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4 py-5">
         {/* ───── Two-Row Navbar ───── */}
         <div className="flex items-center justify-between py-2">
           {/* Mobile Menu Button (Left) */}

@@ -8,11 +8,7 @@ import CareGuide from "./Pages/CareGuide"; // ✅ default import
 import HomePage from "./Pages/Home";
 import FAQ from "./Pages/FAQ";
 // import CollectionPage from "./CollectionPage";
-// import FishDetailsPage from "./FishDetailsPage";
-
-=======
-import FAQ from "./Pages/FAQ";
->>>>>>> 007de5991eb1570f325cfdf64364e530c84bc8b7
+// import FishDetailsPage from "./FishDetailsPag
 
 function App() {
   return (
@@ -24,14 +20,10 @@ function App() {
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/legacy" element={<OurLegacy />} />
         <Route path="/care-guides" element={<CareGuide />} />{" "}
-<<<<<<< HEAD
         <Route path="/" element={<HomePage />} />
-      {/* <Route path="/collection" element={<CollectionPage />} />
+        {/* <Route path="/collection" element={<CollectionPage />} />
       <Route path="/fish/:id" element={<FishDetailsPage />} /> */}
-
-=======
         <Route path="/faq" element={<FAQ />} />{" "}
->>>>>>> 007de5991eb1570f325cfdf64364e530c84bc8b7
         {/* ✅ matches default export */}
       </Routes>
 
