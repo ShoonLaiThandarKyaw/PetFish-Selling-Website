@@ -65,7 +65,7 @@ export default function CareGuide() {
       <div className="max-w-4xl mx-auto">
         {/* Page Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold text-[#001F3F] mb-4">
+          <h1 className="text-4xl font-bold text-[#003366] mb-4">
             Fish Care Guide
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">

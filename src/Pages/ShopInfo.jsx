@@ -209,7 +209,7 @@ function ShopInfo() {
               </p>
 
               <div className="mt-4">
-                <Link to="https://maps.app.goo.gl/Bhkd63pMnWkQXmAY6?g_st=ic" className="px-3 py-1 bg-blue-100 rounded-full text-sm text-[#003355] border border-[#bfe8ff] inline-flex items-center gap-1">
+                <Link to="https://maps.app.goo.gl/AeARWc3wAjavRGBV8?g_st=it" className="px-3 py-1 bg-blue-100 rounded-full text-sm text-[#003355] border border-[#bfe8ff] inline-flex items-center gap-1">
                   Map
                   <svg xmlns="http://www.w3.org/2000/svg"
                       fill="none" viewBox="0 0 24 24" strokeWidth="2"
