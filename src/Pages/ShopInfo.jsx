@@ -372,7 +372,7 @@ function ShopInfo() {
             </p>
             
             <Link to="https://t.me/Awn6932">
-              <div className="w-full bg-gradient-to-r from-[#003366] to-[#00D4FF] text-white text-center font-bold text-md py-4 rounded-lg transition-all delay-150 duration-300 ease-in-out hover:from-[#002244] hover:to-[#00B8E6] cursor-pointer">
+              <div className="w-full bg-gradient-to-r from-[#003366] to-[#00D4FF] text-white text-center font-bold text-md mt-5 py-4 rounded-lg transition-all delay-150 duration-300 ease-in-out hover:from-[#002244] hover:to-[#00B8E6] cursor-pointer">
                 Contact Me Via Telegram
               </div>
             </Link>
