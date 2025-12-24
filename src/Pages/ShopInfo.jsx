@@ -302,7 +302,7 @@ function ShopInfo() {
                 <h3 className="text-md font-bold text-[#003366] mb-4 flex items-center gap-2">
                   <span><img src={Delivery} alt="" /></span>Delivery Policy
                 </h3>
-                <ul className="list-disc list-inside space-y-3 text-sm text-gray-500 ">
+                <ul className="list-disc list-inside space-y-5 text-sm text-gray-500 ">
                   <li>Delivery: Inside & outside the city</li>
                   <li>Shipping & packaging feels included</li>
                   <li>Ensures the fish arrives safely</li>
@@ -314,7 +314,7 @@ function ShopInfo() {
                 <h3 className="text-md font-bold text-[#003366] mb-4 flex items-center gap-2">
                   <span><img src={Order} alt="" /></span>Order Policy
                 </h3>
-                <ul className="list-disc list-inside space-y-3 text-sm text-gray-500 ">
+                <ul className="list-disc list-inside space-y-5 text-sm text-gray-500 ">
                   <li>Via TikTok, Telegram, or Facebook</li>
                   <li>Specify the type of fish you want</li>
                   <li>Place your order anytime Mon - Sat</li>
@@ -325,7 +325,7 @@ function ShopInfo() {
                 <h3 className="text-md font-bold text-[#003366] mb-4 flex items-center gap-2">
                   <span><img src={Payment} alt="" /></span>Payment Policy
                 </h3>
-                <ul className="list-disc list-inside space-y-3 text-sm text-gray-500 ">
+                <ul className="list-disc list-inside space-y-5 text-sm text-gray-500 ">
                   <li>Pay with KPay, Wave Pay, or COD.</li>
                   <li>COD is available within Mandalay</li>
                   <li>Prepaid outside the city</li>
