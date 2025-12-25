@@ -19,7 +19,7 @@ export default function HomePage() {
   return (
     <div className="w-full text-[#0b2b4c]">
       {/* ================= HERO ================= */}
-      <section className="relative bg-black text-white min-h-screen">
+      <section className="relative bg-black text-white py-30 lg:pb-40">
         <video
           autoPlay
           loop
@@ -30,7 +30,7 @@ export default function HomePage() {
           <source src={bgVideo} type="video/mp4" />
         </video>
 
-        <div className="relative z-10 max-w-6xl mx-auto px-6 py-24">
+        <div className="relative z-10 max-w-6xl mx-auto px-6">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
             Bring the Ocean <br />
             <span className="text-cyan-400">To Your Home</span>
@@ -264,6 +264,7 @@ export default function HomePage() {
         </div>
       </section>
       {/* ================= CARE GUIDE SLIDER ================= */}
+<<<<<<< HEAD
       <section className="bg-[#F4FBFF] py-20">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-2xl font-bold text-center mb-10">
@@ -293,6 +294,37 @@ export default function HomePage() {
                       {i === 1 && "Snow Dragon Care Tips"}
                       {i === 2 && "Mahachai Fish Care Tips"}
                     </h3>
+=======
+     <section className="bg-[#F4FBFF] py-20">
+  <div className="max-w-6xl mx-auto px-6">
+    <h2 className="text-2xl text-[#003366] font-bold text-center mb-10">
+      Fish Care Tips
+    </h2>
+
+    <div className="relative overflow-hidden rounded-2xl bg-white py-5">
+      {/* SLIDES */}
+      <div
+        className="flex w-full transition-transform duration-500"
+        style={{ transform: `translateX(-${slideIndex * 100}%)` }}
+      >
+        {[slide1, snowdragon, slide3].map((img, i) => (
+          <div
+            key={i}
+            className="min-w-full p-8 grid md:grid-cols-2 gap-6"
+          >
+            <img
+              src={img}
+              alt="Fish care"
+              className="h-50 w-full object-cover rounded-xl lg:mx-10 lg:h-64"
+            />
+
+            <div className="md:ml-15">
+              <h3 className="text-xl font-semibold mb-3">
+                {i === 0 && "Betta Fish Care Tips"}
+                {i === 1 && "Snow Dragon Care Tips"}
+                {i === 2 && "Mahachai Fish Care Tips"}
+              </h3>
+>>>>>>> 57d6c5295f080f9895006742d71346042e68d737
 
                     <p className="text-gray-600 text-sm leading-6">
                       {i === 0 && (
