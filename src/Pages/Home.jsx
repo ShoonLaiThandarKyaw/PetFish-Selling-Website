@@ -183,7 +183,7 @@ export default function HomePage() {
                     Male – 15000 mmk <br /> Female – 10000 mmk{" "}
                   </span>
                   <Link
-                    to="/collection"
+                    to="/fish"
                     className="w-8 h-8 flex items-center justify-center rounded-full bg-[#E6F6FF] text-[#00A6FB]"
                   >
                     →
@@ -211,7 +211,7 @@ export default function HomePage() {
                     Male – 15000 mmk <br /> Female – 10000 mmk{" "}
                   </span>
                   <Link
-                    to="/collection"
+                    to="/fish"
                     className="w-8 h-8 flex items-center justify-center rounded-full bg-[#E6F6FF] text-[#00A6FB]"
                   >
                     →
@@ -241,7 +241,7 @@ export default function HomePage() {
                     female – 15000 mmk
                   </span>
                   <Link
-                    to="/collection"
+                    to="/fish"
                     className="w-8 h-8 flex items-center justify-center rounded-full bg-[#E6F6FF] text-[#00A6FB]"
                   >
                     →
@@ -270,7 +270,7 @@ export default function HomePage() {
                     female-15000 mmk <br />
                   </span>
                   <Link
-                    to="/collection"
+                    to="/fish"
                     className="w-8 h-8 flex items-center justify-center rounded-full bg-[#E6F6FF] text-[#00A6FB]"
                   >
                     →
