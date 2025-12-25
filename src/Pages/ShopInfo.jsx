@@ -57,7 +57,7 @@ function ShopInfo() {
       link: "https://www.facebook.com/profile.php?id=61554060232785&mibextid=wwXIfr&mibextid=wwXIfr" 
     },
     { label: "Messenger", 
-      value: "@DveSeller", 
+      value: "@DueSeller", 
       icon: Message,
       alt: "Message icon"
     },

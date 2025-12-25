@@ -19,7 +19,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-xl font-bold text-white mb-4">
-              Dve <span className="text-[#00CED1]">Seller</span>
+              Due <span className="text-[#00CED1]">Seller</span>
             </h3>
             <p className="text-md text-gray-400 mb-4">
               Premium aquarium fish, expert advice, and sustainable breeding for
@@ -82,7 +82,7 @@ export function Footer() {
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-2 text-[#00CED1]" />{" "}
-                contact@dveseller.com
+                telegram@dueseller
               </li>
             </ul>
           </div>
