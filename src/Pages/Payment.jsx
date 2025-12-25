@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { PaymentQR } from "../components/PaymentQR";
 import KBZPay from "../assets/Payment/Due_Kpay.jpg";
 import WavePay from "../assets/Payment/Due_Wave.jpg";
+import { Link } from "react-router";
 
 export function PaymentPage() {
   const [selectedProvider, setSelectedProvider] = useState("WavePay");
@@ -70,8 +71,9 @@ export function PaymentPage() {
           </div>
 
           {/* ✅ Telegram Button - Corrected */}
-          <a
-            href="https://t.me/dveseller"
+          
+          <Link
+            to="https://t.me/Awn6932"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full bg-[#008080] text-white py-4 rounded-lg font-semibold text-base hover:bg-[#006666] transition-colors flex items-center justify-center gap-2"
@@ -92,8 +94,8 @@ export function PaymentPage() {
               <polygon points="22 2 15 22 11 13 2 9 22 2" />
             </svg>
             Place Order via Telegram
-          </a>
-
+          
+          </Link>
           {/* Optional confirmation message */}
           {submitted && (
             <p className="mt-4 text-center text-green-600 font-medium">
