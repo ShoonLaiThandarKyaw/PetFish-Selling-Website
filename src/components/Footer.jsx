@@ -97,7 +97,7 @@ export function Footer() {
               <span className="px-2 py-1 bg-white/10 rounded text-sm">
                 KBZ Pay
               </span>
-              <span className="px-2 py-1 bg-white/10 rounded text-sm">MPU</span>
+              <span className="px-2 py-1 bg-white/10 rounded text-sm">COD</span>
             </div>
             <div className="flex items-center text-xs text-gray-500">
               <FaCreditCard className="mr-1" /> Secure payments

@@ -266,11 +266,11 @@ export default function HomePage() {
       {/* ================= CARE GUIDE SLIDER ================= */}
       <section className="bg-[#F4FBFF] py-20">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-2xl font-bold text-center mb-10">
+          <h2 className="text-2xl text-[#003366] font-bold text-center mb-10">
             Fish Care Tips
           </h2>
 
-          <div className="relative overflow-hidden rounded-2xl bg-white">
+          <div className="relative overflow-hidden rounded-2xl bg-white py-5">
             {/* SLIDES */}
             <div
               className="flex w-full transition-transform duration-500"
@@ -284,10 +284,10 @@ export default function HomePage() {
                   <img
                     src={img}
                     alt="Fish care"
-                    className="h-64 w-full object-cover rounded-xl"
+                    className="h-50 w-full object-cover rounded-xl lg:mx-10 lg:h-64"
                   />
 
-                  <div>
+                  <div className="md:ml-15">
                     <h3 className="text-xl font-semibold mb-3">
                       {i === 0 && "Betta Fish Care Tips"}
                       {i === 1 && "Snow Dragon Care Tips"}
