@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { PaymentQR } from "../components/PaymentQR";
-import KBZPay from "../assets/Payment/KBZPay.jpg";
-import WavePay from "../assets/Payment/WavePay.jpg";
+import KBZPay from "../assets/Payment/Due_Kpay.jpg";
+import WavePay from "../assets/Payment/Due_Wave.jpg";
+import { Link } from "react-router";
 
 export function PaymentPage() {
   const [selectedProvider, setSelectedProvider] = useState("WavePay");
@@ -20,7 +21,7 @@ export function PaymentPage() {
       image: KBZPay,
     },
     {
-      name: "MPU",
+      name: "Cash on Delivery",
       color: "#F97316", // orange-500
       image: null, // No image available
     },
@@ -69,13 +70,32 @@ export function PaymentPage() {
             </p>
           </div>
 
-          <button
-            type="submit"
-            className="w-full bg-[#008080] text-white py-4 rounded-lg font-semibold text-base hover:bg-[#006666] transition-colors"
+          {/* ✅ Telegram Button - Corrected */}
+          
+          <Link
+            to="https://t.me/Awn6932"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full bg-[#008080] text-white py-4 rounded-lg font-semibold text-base hover:bg-[#006666] transition-colors flex items-center justify-center gap-2"
           >
-            Place Order
-          </button>
-
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="w-6 h-6"
+            >
+              <path d="M22 2L11 13" />
+              <polygon points="22 2 15 22 11 13 2 9 22 2" />
+            </svg>
+            Place Order via Telegram
+          
+          </Link>
           {/* Optional confirmation message */}
           {submitted && (
             <p className="mt-4 text-center text-green-600 font-medium">
