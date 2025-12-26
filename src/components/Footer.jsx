@@ -1,13 +1,13 @@
 import React from "react";
 import {
   FaFacebook,
-  FaInstagram,
-  FaTwitter,
+  FaTelegram,
   FaTiktok,
   FaPhone,
   FaEnvelope,
   FaMapMarkerAlt,
   FaCreditCard,
+  FaYoutube,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -26,18 +26,20 @@ export function Footer() {
               hobbyists worldwide.
             </p>
             <div className="flex space-x-4">
-              <a href="#">
+              <Link to="https://www.facebook.com/profile.php?id=61554060232785&mibextid=wwXIfr&mibextid=wwXIfr" 
+              target="_blank"
+              rel="noopener noreferrer">
                 <FaFacebook size={20} />
-              </a>
-              <a href="#">
-                <FaInstagram size={20} />
-              </a>
-              <a href="#">
-                <FaTwitter size={20} />
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="https://t.me/Dueseller" target="_blank" rel="noopener noreferrer">
+                <FaTelegram size={20} />
+              </Link>
+              <Link to="https://www.tiktok.com/@due.seller?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">
                 <FaTiktok size={20} />
-              </a>
+              </Link>
+              <Link to="https://www.youtube.com/@dueseller2002/shorts" target="_blank" rel="noopener noreferrer">
+                <FaYoutube size={20} />
+              </Link>
             </div>
           </div>
 

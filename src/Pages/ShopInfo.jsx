@@ -47,7 +47,7 @@ function ShopInfo() {
     { label: "TikTok", 
       value: "@due.seller", 
       icon: Tiktok,
-      alt: "Instagram icon",
+      alt: "Tiktok icon",
       link: "https://www.tiktok.com/@due.seller?is_from_webapp=1&sender_device=pc"
     },
     { label: "Facebook", 
