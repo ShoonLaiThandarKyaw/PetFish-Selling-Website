@@ -125,7 +125,7 @@ function ShopInfo() {
         {/* About Due Seller */}
         <section className="w-full flex justify-center px-5">
           <div className="max-w-5xl w-full bg-white rounded-2xl shadow-sm p-8">
-            <h2 className="text-2xl font-bold text-[#003366] mb-7 flex items-center gap-2">
+            <h2 className="text-xl font-bold text-[#003366] mb-7 flex items-center gap-2 md:text-2xl">
               <span><img src={FishIcon} alt="" /></span> About Due Seller
             </h2>
 
