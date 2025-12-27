@@ -1,4 +1,4 @@
-# 🐠 PetFish Selling Website
+# 🐠 Due Seller (PetFish Selling Website)
 
 ## A React project created for a client — **Due Seller**
 
