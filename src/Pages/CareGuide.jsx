@@ -1,8 +1,10 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 
+
+
 // Betta Guide Data
-const bettaGuide = {
+ const bettaGuide = {
   id: 1,
   title: "Betta Fish Care Guide",
   description:
@@ -58,7 +60,7 @@ const bettaGuide = {
 };
 
 // Flower Horn Guide Data (your provided data)
-const flowerHornGuide = {
+ const flowerHornGuide = {
   id: 3,
   title: "Flower Horn Fish Care Guide",
   description:
@@ -116,7 +118,7 @@ const flowerHornGuide = {
     },
   ],
 };
-const channaGuide = {
+ const channaGuide = {
   id: 2,
   title: "Channa (Snakehead) Fish Care Guide",
   description:
@@ -227,6 +229,7 @@ function GuideCard({ guide }) {
 }
 
 export default function CareGuide() {
+  
   return (
     <div className="min-h-screen bg-[#FAFAFA] py-16 px-4 sm:px-6 lg:px-8 font-myanmar">
       <div className="max-w-4xl mx-auto">
@@ -242,14 +245,26 @@ export default function CareGuide() {
         </div>
 
         {/* Betta Guide Card */}
+        
+
         <GuideCard guide={bettaGuide} />
+        
 
         {/* Flower Horn Guide Card */}
+        
         <GuideCard guide={flowerHornGuide} />
+        
 
         {/* { channaGuide} */}
+        
         <GuideCard guide={channaGuide} />
+    
       </div>
+      
     </div>
   );
+  
+  
 }
+
+
