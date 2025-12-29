@@ -6,7 +6,6 @@ import { Thermometer, Droplet, Ruler, Clock, Users } from "lucide-react";
 export default function FishDetail() {
   const { slug } = useParams();
 
-  // always scroll to top when fish changes
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [slug]);

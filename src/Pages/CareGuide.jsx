@@ -1,10 +1,8 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 
-
-
 // Betta Guide Data
- const bettaGuide = {
+const bettaGuide = {
   id: 1,
   title: "Betta Fish Care Guide",
   description:
@@ -60,7 +58,7 @@ import { FaCheckCircle } from "react-icons/fa";
 };
 
 // Flower Horn Guide Data (your provided data)
- const flowerHornGuide = {
+const flowerHornGuide = {
   id: 3,
   title: "Flower Horn Fish Care Guide",
   description:
@@ -118,7 +116,7 @@ import { FaCheckCircle } from "react-icons/fa";
     },
   ],
 };
- const channaGuide = {
+const channaGuide = {
   id: 2,
   title: "Channa (Snakehead) Fish Care Guide",
   description:
@@ -187,17 +185,22 @@ import { FaCheckCircle } from "react-icons/fa";
 };
 
 // Reusable Guide Card Component
-function GuideCard({ guide, id}) {
+function GuideCard({ guide, id }) {
   const Icon = guide.icon;
   return (
-    <div id={id} className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12 scroll-offset lg:scroll-mt-[200px]">
+    <div
+      id={id}
+      className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12 scroll-offset lg:scroll-mt-[200px]"
+    >
       <div className="p-8 border-b border-gray-100 bg-gray-50/50">
         <div className="flex items-center mb-4">
           <div className="p-3 bg-[#008080]/10 rounded-lg mr-4">
             <Icon className="w-8 h-8 text-[#008080]" />
           </div>
           <div>
-            <h2 className="text-xl font-bold text-[#001F3F] md:text-2xl">{guide.title}</h2>
+            <h2 className="text-xl font-bold text-[#001F3F] md:text-2xl">
+              {guide.title}
+            </h2>
             <p className="text-gray-500">{guide.description}</p>
           </div>
         </div>
@@ -229,13 +232,12 @@ function GuideCard({ guide, id}) {
 }
 
 export default function CareGuide() {
-  
   return (
     <div className="min-h-screen bg-[#FAFAFA] py-16 px-4 sm:px-6 lg:px-8 font-myanmar">
       <div className="max-w-4xl mx-auto">
         {/* Page Header */}
         <div className="text-center mb-16">
-          <h1 className="text-3xl font-bold text-[#003366] mb-4 md:text-4xl">
+          <h1 className="text-3xl font-bold text-[#003366] mb-4 md:text-4xl font-inter">
             Fish Care Guide
           </h1>
           <p className="text-gray-500 max-w-2xl mx-auto px-5">
@@ -245,25 +247,17 @@ export default function CareGuide() {
         </div>
 
         {/* Betta Guide Card */}
-        
 
-        <GuideCard guide={bettaGuide} id="betta"/>
-        
+        <GuideCard guide={bettaGuide} id="betta" />
+
         {/* { channaGuide} */}
-        
-        <GuideCard guide={channaGuide} id="channa"/>
+
+        <GuideCard guide={channaGuide} id="channa" />
 
         {/* Flower Horn Guide Card */}
-        
-        <GuideCard guide={flowerHornGuide} id="flowerHorn"/>
-        
 
+        <GuideCard guide={flowerHornGuide} id="flowerHorn" />
       </div>
-      
     </div>
   );
-  
-  
 }
-
-

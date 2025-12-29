@@ -7,7 +7,7 @@ import snowdragon from "../assets/Home/snowdragon.webp";
 import mahachai from "../assets/Home/mahachai.webp";
 import samurai from "../assets/Home/samurai.webp";
 import slide1 from "../assets/Home/slide1.webp";
-import slide2 from "../assets/Home/slide2.webp";
+import slide2 from "../assets/Collection/18.jpg";
 import slide3 from "../assets/Home/slide3.webp";
 
 
@@ -314,7 +314,7 @@ export default function HomePage() {
                 <img
                   src={slide1}
                   alt="Betta"
-                  className="h-64 w-full object-cover rounded-xl"
+                  className="h-50 w-full object-cover rounded-xl lg:h-65"
                 />
 
                 <div>
@@ -351,7 +351,7 @@ export default function HomePage() {
                 <img
                   src={slide2}
                   alt="Channa"
-                  className="h-64 w-full object-cover rounded-xl"
+                  className="h-50 w-full object-cover rounded-xl lg:h-65"
                 />
 
                 <div>
@@ -386,7 +386,7 @@ export default function HomePage() {
                 <img
                   src={slide3}
                   alt="Flowerhorn"
-                  className="h-64 w-full object-cover rounded-xl"
+                  className="h-50 w-full object-cover rounded-xl lg:h-65"
                 />
 
                 <div>
@@ -422,7 +422,7 @@ export default function HomePage() {
               onClick={() =>
                 setSlideIndex(slideIndex === 0 ? 2 : slideIndex - 1)
               }
-              className="absolute left-4 top-1/2 -translate-y-1/2 bg-white rounded-full w-10 h-10 shadow"
+              className="absolute left-4 top-3/7 -translate-y-1/2 bg-white rounded-full w-10 h-10 shadow md:top-1/2"
             >
               ←
             </button>
@@ -431,7 +431,7 @@ export default function HomePage() {
               onClick={() =>
                 setSlideIndex(slideIndex === 2 ? 0 : slideIndex + 1)
               }
-              className="absolute right-4 top-1/2 -translate-y-1/2 bg-white rounded-full w-10 h-10 shadow"
+              className="absolute right-4 top-3/7 -translate-y-1/2 bg-white rounded-full w-10 h-10 shadow top-1/2"
             >
               →
             </button>

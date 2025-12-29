@@ -14,8 +14,8 @@ export default function ScrollToTop() {
       const element = document.querySelector(hash);
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
-      } else {
-        // Retry until element exists (small delay)
+      } 
+      else {
         setTimeout(scrollToHash, 50);
       }
     };
@@ -25,4 +25,3 @@ export default function ScrollToTop() {
 
   return null;
 }
-

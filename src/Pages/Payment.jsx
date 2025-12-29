@@ -12,18 +12,18 @@ export function PaymentPage() {
   const providers = [
     {
       name: "WavePay",
-      color: "#3B82F6", // blue-500
+      color: "#3B82F6", 
       image: WavePay,
     },
     {
       name: "KBZ Pay",
-      color: "#1D4ED8", // blue-700
+      color: "#1D4ED8", 
       image: KBZPay,
     },
     {
       name: "Cash on Delivery",
-      color: "#F97316", // orange-500
-      image: null, // No image available
+      color: "#F97316", // 
+      image: null, // 
     },
   ];
 
@@ -51,7 +51,7 @@ export function PaymentPage() {
               </h2>
             </div>
 
-            {/* Render providers dynamically */}
+            
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               {providers.map((p) => (
                 <PaymentQR
@@ -70,7 +70,7 @@ export function PaymentPage() {
             </p>
           </div>
 
-          {/* ✅ Telegram Button - Corrected */}
+          
           
           <Link
             to="https://t.me/Awn6932"
