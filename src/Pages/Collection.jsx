@@ -66,14 +66,20 @@ export default function Collection() {
             />
             <div className="p-4 flex flex-col flex-grow">
               <h3 className="font-semibold text-lg mb-1">{fish.name}</h3>
+
               <span className="inline-block w-fit text-xs bg-blue-100 text-blue-700 px-3 py-1 rounded-full mb-4">
                 {fish.category}
               </span>
+
               <Link
                 to={`/fish/${fish.slug}`}
-                className="mt-auto self-end w-10 h-10 rounded-full bg-gray-100 hover:bg-teal-600 hover:text-white flex items-center justify-center transition"
+                className="mt-auto self-end flex items-center gap-5 text-sm font-medium text-gray-600 hover:text-teal-600 transition"
               >
-                →
+                <span>View Detail</span>
+
+                <span className="w-10 h-10 rounded-full bg-gray-100 hover:bg-teal-600 hover:text-white flex items-center justify-center transition">
+                  →
+                </span>
               </Link>
             </div>
           </div>
