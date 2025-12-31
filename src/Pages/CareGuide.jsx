@@ -185,17 +185,22 @@ const channaGuide = {
 };
 
 // Reusable Guide Card Component
-function GuideCard({ guide }) {
+function GuideCard({ guide, id }) {
   const Icon = guide.icon;
   return (
-    <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
+    <div
+      id={id}
+      className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12 scroll-offset lg:scroll-mt-[200px]"
+    >
       <div className="p-8 border-b border-gray-100 bg-gray-50/50">
         <div className="flex items-center mb-4">
           <div className="p-3 bg-[#008080]/10 rounded-lg mr-4">
             <Icon className="w-8 h-8 text-[#008080]" />
           </div>
           <div>
-            <h2 className="text-2xl font-bold text-[#001F3F]">{guide.title}</h2>
+            <h2 className="text-xl font-bold text-[#001F3F] md:text-2xl">
+              {guide.title}
+            </h2>
             <p className="text-gray-500">{guide.description}</p>
           </div>
         </div>
@@ -232,23 +237,26 @@ export default function CareGuide() {
       <div className="max-w-4xl mx-auto">
         {/* Page Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold text-[#003366] mb-4">
+          <h1 className="text-3xl font-bold text-[#003366] mb-4 md:text-4xl font-inter">
             Fish Care Guide
           </h1>
-          <p className="text-gray-500 max-w-2xl mx-auto">
+          <p className="text-gray-500 max-w-2xl mx-auto px-5">
             သင့်အိမ်မွေးငါးများကို ကျန်းမာပျော်ရွှင်စွာ နေထိုင်စေရန် လိုအပ်သော
             ဂရုစိုက်မှုလမ်းညွှန်များ
           </p>
         </div>
 
         {/* Betta Guide Card */}
-        <GuideCard guide={bettaGuide} />
 
-        {/* Flower Horn Guide Card */}
-        <GuideCard guide={flowerHornGuide} />
+        <GuideCard guide={bettaGuide} id="betta" />
 
         {/* { channaGuide} */}
-        <GuideCard guide={channaGuide} />
+
+        <GuideCard guide={channaGuide} id="channa" />
+
+        {/* Flower Horn Guide Card */}
+
+        <GuideCard guide={flowerHornGuide} id="flowerHorn" />
       </div>
     </div>
   );

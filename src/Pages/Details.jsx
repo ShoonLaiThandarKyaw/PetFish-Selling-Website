@@ -6,7 +6,6 @@ import { Thermometer, Droplet, Ruler, Clock, Users } from "lucide-react";
 export default function FishDetail() {
   const { slug } = useParams();
 
-  // always scroll to top when fish changes
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [slug]);
@@ -102,7 +101,7 @@ export default function FishDetail() {
 
             {/* BUY BUTTON */}
             <button
-              onClick={() => (window.location.href = "https://t.me/Dueseller")}
+              onClick={() => (window.location.href = "https://t.me/Awn6932")}
               className="w-full mt-4 bg-teal-700 hover:bg-teal-800 text-white py-3 rounded-xl text-sm sm:text-base"
             >
               Buy Now

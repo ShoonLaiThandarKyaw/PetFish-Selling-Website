@@ -35,7 +35,7 @@ function OurLegacy() {
       <section className="bg-[#003366] text-white px-4 py-20 text-center">
         <h1 className="text-3xl font-bold md:text-4xl">Our Legacy</h1>
         <p className="opacity-80 mt-3 text-sm text-blue-100 max-w-xl mx-auto md:text-base">
-          Over 20 years of passion, expertise, and dedication to the aquarium
+          Over 3 years of passion, expertise, and dedication to the aquarium
           hobby.
         </p>
       </section>
@@ -50,7 +50,7 @@ function OurLegacy() {
             </h2>
 
             <p className="mt-4 leading-loose text-sm text-slate-700 md:text-base">
-              Founded in 2003, AquaPrime started as a small basement breeding
+              Founded in 2022, AquaPrime started as a small basement breeding
               project and has grown into the country’s premier destination for
               rare and exotic fish. We believe that an aquarium is not just a
               decoration, but a living ecosystem that brings peace and nature
@@ -151,6 +151,7 @@ function OurLegacy() {
 }
 
 export default OurLegacy;
+
 
 
 
