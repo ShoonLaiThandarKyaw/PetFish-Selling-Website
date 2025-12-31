@@ -34,7 +34,7 @@ export function Navbar() {
 
   return (
     <nav className="bg-[#003366] text-white sticky top-0 z-50 shadow-xl border-b border-[#00CED1]/20">
-      <div className="max-w-7xl mx-auto px-4 py-2 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 py-5 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center ">
           {/* Top Row: Logo & Toggle */}
           <div className="w-full flex-row-reverse flex justify-between md:justify-center items-center relative mb-0 md:mb-2">

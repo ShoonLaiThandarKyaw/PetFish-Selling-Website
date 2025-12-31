@@ -2,10 +2,6 @@ import { Facebook } from "lucide-react";
 import React from "react";
 import {
   FaFacebook,
-<<<<<<< HEAD
-  FaInstagram,
-=======
->>>>>>> df6506968fa8de6b704e129818d47cf277a1df80
   FaTelegram,
   FaTiktok,
   FaPhone,
@@ -36,22 +32,11 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer">
                 <FaFacebook size={20} />
-<<<<<<< HEAD
-              </a>
-              <a href="#">
-                <FaInstagram size={20} />
-              </a>
-              <a href="#">
-                <FaTelegram size={20} />
-              </a>
-              <a href="#">
-=======
               </Link>
               <Link to="https://t.me/Dueseller" target="_blank" rel="noopener noreferrer">
                 <FaTelegram size={20} />
               </Link>
               <Link to="https://www.tiktok.com/@due.seller?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">
->>>>>>> df6506968fa8de6b704e129818d47cf277a1df80
                 <FaTiktok size={20} />
               </Link>
               <Link to="https://www.youtube.com/@dueseller2002/shorts" target="_blank" rel="noopener noreferrer">
