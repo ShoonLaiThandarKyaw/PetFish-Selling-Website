@@ -1,14 +1,16 @@
+import { Facebook } from "lucide-react";
 import React from "react";
 import {
   FaFacebook,
   FaInstagram,
-  FaTwitter,
+  FaTelegram,
   FaTiktok,
   FaPhone,
   FaEnvelope,
   FaMapMarkerAlt,
   FaCreditCard,
 } from "react-icons/fa";
+
 import { Link } from "react-router-dom";
 
 export function Footer() {
@@ -33,7 +35,7 @@ export function Footer() {
                 <FaInstagram size={20} />
               </a>
               <a href="#">
-                <FaTwitter size={20} />
+                <FaTelegram size={20} />
               </a>
               <a href="#">
                 <FaTiktok size={20} />
